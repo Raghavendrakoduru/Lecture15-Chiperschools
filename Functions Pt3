@@ -1,0 +1,46 @@
+// #include<iostream>
+// using namespace std;
+// int  myfun(int a,int b){
+//  int c;
+//   c=a+b;
+//   return c;
+
+// }
+// int main(){
+//   int a,b;
+//   int sum;
+//   cin>>a>>b;
+//   sum = myfun(a,b);
+// cout<<sum;
+//   return 0;
+// }
+// #include<iostream>
+// using namespace std;
+// int ram(int a=100,int b=200){
+//   int c= a+b;
+//   return c;
+//   cout<<"Hey Ram"<<endl;
+// }
+// int main(){
+//   int c=500,f=60;
+//   int d = ram(c,f);
+//   cout<<d;
+// }
+#include<iostream>
+using namespace std;
+int graph(int a=100,int b= 200){
+  if(a<b){
+    return a;
+  }else{
+    return b;
+  }
+}int main(){
+  //int a=15;
+  //  int b = 12;
+ int c = graph(a,b)  ;
+  cout<<c<<endl;
+  int d = 5 , h = 7;
+  int g = graph(d,h);
+  cout<<g;
+  return 0;
+}
